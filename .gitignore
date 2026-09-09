@@ -1,0 +1,49 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Testing & Coverage
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database & Local uploads
+*.db
+backend/static/uploads/
+
+# ML Datasets & Local test artifacts
+Mulberry leaf dataset/
+scratch_imgs/
+ml/models/*
+!ml/models/.gitkeep
+ml/datasets/*
+!ml/datasets/.gitkeep
+*.h5
+*.pt
+*.onnx
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs & Local Documents
+*.log
+*.docx
